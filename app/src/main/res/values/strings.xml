@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">QQregister_test1</string>
+    <string name="username">QQ号/手机号/邮箱</string>
+    <string name="password">密码</string>
+    <string name="login">Login</string>
+    <string name="forgetPwd">忘记密码？</string>
+    <string name="newUser">新用户注册</string>
+    <string name="bottonMsg">登录即代表阅读和同意</string>
+    <string name="rules">服务条款</string>
 </resources>
