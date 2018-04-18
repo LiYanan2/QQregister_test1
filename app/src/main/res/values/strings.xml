@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">QQregister_test1</string>
-    <string name="username">QQ号/手机号/邮箱</string>
-    <string name="password">密码</string>
-    <string name="login">Login</string>
-    <string name="forgetPwd">忘记密码？</string>
-    <string name="newUser">新用户注册</string>
-    <string name="bottonMsg">登录即代表阅读和同意</string>
-    <string name="rules">服务条款</string>
+    <string-array name="railwayList">
+        <item>G7553 温州南-杭州东</item>
+        <item>G7362 乐清-杭州东</item>
+        <item>G6670 雁荡山-杭州东</item>
+        <item>G9537 宁波东-杭州东</item>
+    </string-array>
 </resources>

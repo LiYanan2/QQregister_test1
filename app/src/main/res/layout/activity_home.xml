@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/ListView_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toListView"
+        android:text="ListView_test2" />
+
+    <Button
+        android:id="@+id/Menu_test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu_test3"
+        android:onClick="toMenu"
+        app:layout_constraintTop_toBottomOf="@id/ListView_test2" />
+
+    <Button
+        android:id="@+id/Running_test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toRunning"
+        android:text="Running_test4"
+        app:layout_constraintTop_toBottomOf="@id/Menu_test3" />
+
+    <Button
+        android:id="@+id/Draw_test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toDraw"
+        android:text="Draw_test5"
+        app:layout_constraintTop_toBottomOf="@id/Running_test4" />
+
+</android.support.constraint.ConstraintLayout>
